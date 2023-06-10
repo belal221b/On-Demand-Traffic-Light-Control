@@ -1,5 +1,34 @@
 # **On Demand Traffic Light Control**
-This project is a simulation of a traffic light control system using C language and Proteus. The project aims to control the traffic light system according to the demand of pedestrians and cars. The system has six LEDs, three for cars, and three for pedestrians, and a button for pedestrians to request crossing the road.
+  This project is a simulation of a traffic light control system using C language and Proteus. The project aims to control the traffic light system according to the demand of pedestrians and cars. The system has six LEDs, three for cars, and three for pedestrians, and a button for pedestrians to request crossing the road.
+
+# **System Description**
+### **System Overview**
+![353603615_618931086839123_3390931127096568107_n](https://github.com/belal221b/Payment-Application/assets/84633317/6964ed89-5fa0-48eb-99bb-fed8bb85c4e6)
+  The system aims to provide an on-demand traffic control system. It includes a pedestrian button to allow for pedestrians to pass.
+
+### **System Functionality**
+  The system can detect when the button is pressed. Then, based on current state it would decide what to do. It allows pedestrians to walk by making sure cars are stopped first. Refer to Flow Chart for more information.
+
+# **System Design**
+### **System Requirements**
+The system consists of:
+- AVR Atmega32 (1MHz)
+- 2 Green LEDs
+- 2 Yellow LEDs
+- 2 Red LEDs
+- 6 resistors (300 Ohm)
+- 1 resistor (10k Ohm)
+- 1 Push Button
+
+### **System Environment**
+  The program has been tested on Proteus simulator provided by LabCenter. It should be used in traffic light control systems on streets with a pedestrian push button included to allow for full system functionality.
+
+### **Input & Output Formats**
+  The only system input is in the form of the pedestrian push button. When it comes to output it handles 6 LEDs at once given the current state, time and push button press state.
+  
+### **Flow Chart**
+![image](https://github.com/belal221b/Payment-Application/assets/84633317/0b750130-47a8-43d1-9717-751950a7bb76)
+
 
 # **Project Components**
 - app.h: header file for the application
