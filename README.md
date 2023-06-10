@@ -26,7 +26,7 @@ The system consists of:
 ### **Input & Output Formats**
   The only system input is in the form of the pedestrian push button. When it comes to output it handles 6 LEDs at once given the current state, time and push button press state.
   
-### **Flow Chart**
+# **Flow Chart**
 ![image](https://github.com/belal221b/Payment-Application/assets/84633317/0b750130-47a8-43d1-9717-751950a7bb76)
 
 
